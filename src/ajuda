@@ -1,0 +1,20 @@
+Sobre o elevador: (MINHAS ANOTAÇÔES)
+Os andares só são selecionados com a porta aberta (da pra manter em uma lista ou algo do tipo esses andares, e depois jogar numa nova rota caso já tenha passado)
+
+
+ideia: colocar alguem aleatorio para entrar no elevador
+usar threads e semaforo para simular o elevador subindo (talvez não de certo, vamo ver, porq pode ser com o botão pra fazer ele subir, sla)
+
+o que vai mostrar no javafx:
+Teclado númerico (1 a 10)
+Status do elevador (parado/subindo/descendo)
+Mostrar se a porta ta aberta ou fechada
+Andar atual
+Botão de iniciar rota
+Botão de continuar rota (depois de parar em um andar)
+Contagem de passageiros + botão de adicionar passageiros
+
+iniciar rota = Portas se fecham, status inicia
+roda 5 segundos, e o andar muda
+aperto o botão "saida de passageiro", a porta abre e sai passageiro(s)
+aperto "continuar rota" e reinicia o ciclo (enquanto não chega no ultimo andar.)
